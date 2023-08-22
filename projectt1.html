@@ -12,7 +12,7 @@
     }
     .one{
 text-align: center;
-font-style: italic;
+font-size: x-large;
     }
     .three{
         border-radius: 50px;
@@ -28,7 +28,7 @@ font-style: italic;
     .co1{
         text-align: center;
         font-style: italic;
-    color: coral;
+       color: coral;
     }
     .coo{
         text-align: center;
@@ -85,6 +85,20 @@ font-style: italic;
     text-align: center;
     color: black;
 }
+.lo{
+    color: orangered;
+text-decoration: wavy;
+}
+.loo{
+color: black;
+}
+.moo{
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+
+
 
     
 
@@ -122,12 +136,15 @@ font-style: italic;
     <div class="col-lg-6 one">
         <h1>coffee lounge</h1>
     </div>
-    <div class="col-lg-6">
-        <a class="" href=""> <b>home</b></a>
-        <a class="" href=""> <b>about</b></a>
-        <a class="" href=""> <b>gallery</b></a>
-        <a class="" href=""> <b>contact</b></a>
+    <div class="col-lg-6 moo">
+        
+        <a class="text-black me-4" href=""> <b>home</b></a>
+        <a class="text-black me-4" href=""> <b>about</b></a>
+        <a class="text-black me-4" href=""> <b>gallery</b></a>
+        <a class="text-black me-4" href=""> <b>contact</b></a>
+        
         <button type="button" class="btn btn-primary mt-1">get started</button>
+        </div>
     </div>
 </div>
 <div class="row">
@@ -136,14 +153,14 @@ font-style: italic;
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-4 mt-3">
+    <div class="col-lg-4 mt-3 ms-4">
         <img class="w-100 three" src="image2.jpg" alt="">
         </div>
         <div class="col-lg-4 four mt-3">
-    <h2>coffee lounge</h2>
-    <h3>about our company</h3>
-    <p>That first sip of coffee in the morning has the power to transform you from a sleep-deprived zombie to a chipper morning person, ready to take on the day. A bad day with coffee is better than a good day without it. I like my coffee like I like myself: strong, sweet, and too hot for you.</p>
-    <button type="button" class="btn btn-success mt-1">get started</button>
+    <h3 class="lo">coffee lounge</h3>
+    <h1 class="loo">About our company</h1>
+    <p class="h6">That first sip of coffee in the morning has the power to transform you from a sleep-deprived zombie to a chipper morning person, ready to take on the day</p>.<p class="h6"> A bad day with coffee is better than a good day without it. I like my coffee like I like myself: strong, sweet, and too hot for you.</p>
+    <button type="button" class="btn btn-primary mt-1">get started</button>
 </div>
 </div>
 <div class="row mt-2">
@@ -154,18 +171,18 @@ font-style: italic;
                 <h3 class="co1">with a mug</h3>
                 <h6 class="coo">good ideas start with brainstorming. good ideas start with </h6>
                 </div>
-            <div class="col-lg-7 me-4" style="font-weight: bolder; color: rgb(20, 11, 1); background-color: rgb(240,248,255,0.471); border-radius: 15px; margin-top: 1px;  margin-bottom: 70px; box-sizing: border-box; text-align: center; padding-top: 30px; margin-left: 600px; height: 350px; width: 25%;">
-                <div class="form1">
+            <div class="col-lg-6 me-4" style="font-weight: bolder; color: rgb(20, 11, 1);  margin-top: 1px;  margin-bottom: 70px; box-sizing: border-box; text-align: center;  ">
+                <div class="form1" style="padding-top: 30px;background-color: lightgray; height: 350px; width: 25%; margin-left: 600px;  border-radius: 15px;">
 <form>
-    <div class="text text-white">
-<label for="fname"> <b>first name:</b></label><br>
+    <div class="text text-black">
+<label for="fname">firstname</label><br>
 <input type="text" id="fname" name="fname" placeholder="first name"><br>
-<label for="fname"> <b>lastname:</b></label><br>
-<input type="text" id="Iname" name="fname" placeholder="last name"> <br>
-<label for="fname"> <b>password:</b></label><br>
-<input type="text" id="Iname" name="fname" placeholder="password"> <br>
-<input type="checkbox" id="" name="textbox"><b>terms$conditions</b> <br>
-<button type="submit" class="btn btn-primary">Sign in</button>
+<label for="fname">lastname</label><br>
+<input type="text" id="Iname" name="fname" placeholder="last name"><br>
+<label for="fname">password</label><br>
+<input type="text" id="Iname" name="fname" placeholder="password"><br>
+<input type="checkbox" id="" name="textbox">terms$conditions<br>
+<button type="submit" class="btn btn-primary mt-5">sign in</button>
 </form>
         </div>
     </div>
