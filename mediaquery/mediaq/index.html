@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+        p{
+            margin-left: 10%;
+            margin-right: 10%;
+            text-align: justify;
+
+        }
+        img{
+            width: 500px;
+            margin-left: 37%;
+        }
+
+        @media (max-width:1875px) and (min-width:1775px){
+            img{
+                margin-left: 35%;
+            }
+            h1{
+                color: red;
+            }
+        }
+
+        @media (max-width:1775px) and (min-width:1600px){
+            img{
+                margin-left: 32%;
+            }
+        } 
+
+        
+
+        /* max-width  means upto that value
+         min-width means from that value*/
+
+
+         /*we can write by these methods:::---*/
+
+         /* 
+         @media (max-width:600px) and (min-width:400px){  
+           p{
+            color:black; 
+           }
+           img{
+            width:200px
+           }
+        } 
+        */
+          /* 
+         @media (max-width:600px){
+            //....
+            } 
+        */
+
+          /* 
+         @media (min-width:400px){
+            //....
+            }  */
+        
+        /* @media (max-width:1200px) and (min-width:992px){
+            img{
+                margin-left: 25%;
+            }
+        } */
+        /*
+        @media (max-width:992px) and (min-width:768px){
+            img{
+                margin-left: 20%;
+            }
+        }
+        @media (max-width:768px) and (min-width:700px){
+            img{
+                margin-left: 15%;
+            }
+        }
+        @media (max-width:700px) and (min-width:615px){
+            img{
+                margin-left: 10%;
+            }
+        }
+        @media (max-width:615px) and (min-width:550px){
+            img{
+                margin-left: 5%;
+            }
+        }
+        @media (max-width:550px) and (min-width:450px){
+            img{
+                margin-left: 5%;
+                width: 300px;
+            }
+        }*/
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Lorem Ipsum</h1>
+        <img src="myimg.jpeg" alt="">
+        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>    
+    </div>
+
+  
+
+    
+</body>
+</html>
