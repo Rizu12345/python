@@ -9,3 +9,7 @@ def package(request):
     return HttpResponse('<h1>packages</h1>')
 def colleges(request):
     return HttpResponse('<h1>calm</h1>')
+
+
+
+
