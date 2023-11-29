@@ -1,1 +1,28 @@
-{{todo_form}}
+<form method="post">
+    {%csrf_token%}
+    {{todo_form}}
+    <button name="save">submit</button>
+
+    
+</form>
+
+<form method="post">
+
+ {%csrf_token%}
+
+    {%for i in todo%}
+
+
+    <li>{{i.name}}</li><button>edit</button><button formnovalidate name="delete" value="{{i.id}}">delete</button>
+    
+    
+    {%endfor%}
+
+
+
+</form>
+
+
+
+
+
