@@ -1,22 +1,21 @@
 <form method="post">
     {%csrf_token%}
-    {{todo_form}}
-    <button name="save">submit</button>
+ 
 
+       {% if not todo_form.instance.id %}
+       {%include 'save.html'%}
+       {%endif%}
+
+       {%for i in todo%}
+
+       {% if todo_form.instance.id == i.id %}
+       {%include 'save.html'%}
+       {%endif%}
+
+       <li>{{i.name}}<button formnovalidate name="edit" value="{{i.id}}">edit</button><button formnovalidate name="delete" value="{{i.id}}">delete</button></li>
     
-</form>
-
-<form method="post">
-
- {%csrf_token%}
-
-    {%for i in todo%}
-
-
-    <li>{{i.name}}</li><button>edit</button><button formnovalidate name="delete" value="{{i.id}}">delete</button>
     
-    
-    {%endfor%}
+       {%endfor%}
 
 
 
