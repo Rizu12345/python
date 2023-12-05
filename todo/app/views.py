@@ -25,7 +25,7 @@ def index(request):
            
         elif 'delete' in request.POST:
            key=request.POST.get('delete')
-           todo_del=Todo.objects.get(id=key)
+           todo_del=Todo.objects.get(id=key) 
            todo_del.delete()
 
 
