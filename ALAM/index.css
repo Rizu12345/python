@@ -4,3 +4,15 @@ text-align: center;
 .two{
     margin-top: 25px;
 }
+.footer-wrapper{
+    background-color: lightsteelblue;
+    padding: 300px;
+}
+.three{
+    padding: 20px;
+    background-color: darkgray;
+}
+.four{
+    padding: 50px;
+    background-color: lightseagreen;
+}
