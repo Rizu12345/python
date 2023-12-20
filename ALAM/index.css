@@ -16,3 +16,17 @@ text-align: center;
     padding: 50px;
     background-color: lightseagreen;
 }
+.book{
+    background-color: grey;
+    border-radius: 25px;
+}
+.book:hover{
+    background-color: blue;
+}
+.box{
+    background-color: #7AA641;
+}
+.home4{
+    padding: 40px;
+    background-color: #666666;
+}
