@@ -1,0 +1,48 @@
+.one{
+    text-align: center;
+    }
+    .two{
+        margin-top: 25px;
+    }
+    footer{
+        background-color: rgb(195, 201, 209);
+        /* padding: 30px; */
+    }
+    .three{
+        padding: 20px;
+        background-color: darkgray;
+    }
+    .four{
+        padding: 50px;
+        background-color: lightseagreen;
+    }
+    .book{
+        background-color: grey;
+        border-radius: 25px;
+    }
+    .book:hover{
+        background-color: blue;
+    }
+    .box{
+        background-color: #7AA641;
+    }
+    .home4{
+        padding: 40px;
+        background-color: #666666;
+    }
+    .about us{
+    text-align: center;
+    }
+    .navbar-brand{
+        padding-left: 5%;
+    }
+    .navs{
+        padding-left: 30%;
+    }
+    .Health{
+        background-color: lightskyblue;
+        }
+        .demo>[class*='col-']{
+            padding-right: 0;
+            padding-left: 0;
+        }
