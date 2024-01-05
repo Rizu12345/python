@@ -1,0 +1,58 @@
+.phone{
+    border-radius:48%;
+    background-color:blue;
+    color: white;
+}
+.square{
+    border-bottom: 1px solid rgb(16, 16, 95);
+    border-top: 1px solid aliceblue;
+    border-left: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+    background-color: rgb(252, 253, 255);
+}
+.phones{
+    border-radius: 49%;
+    background-color:blue;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.phone:hover{
+    color: white;
+    background-color: green;
+}
+.phones:hover{
+    color: white;
+    background-color: green;
+  
+}
+/* .envelope{
+   font-size: 20px;
+   font-weight: 100;
+} */
+.large{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blue;
+    color: white;
+}
+.bgcolo{
+background-color: aliceblue;
+}
+.whatsapp{
+    background-color: green;
+    border-radius: 48%;
+    padding-left: 35x;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom:15px;
+
+}
+.rightwh{
+    padding-left: 100%;
+
+}

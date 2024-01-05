@@ -1,0 +1,137 @@
+.Packages{
+    /* padding-top: 10%; */
+    background-color: aliceblue;
+}
+.Labs{
+    font-size: 20px; 
+}
+.demo>[class*='col-']{
+    padding-right: 0;
+    padding-left: 0;
+}
+.Book  {
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:black;
+    color: darkolivegreen;
+    border: darkolivegreen ;
+}
+.Book:hover{
+    background-color: rgb(41, 41, 95);
+    
+    color: white;
+}
+.Hours{
+    padding-right: 50px;
+}
+.smallsec{
+    background-color: darkolivegreen;
+
+}
+.line{
+    border-left: 1px solid black;
+}
+
+
+/* se3 */
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+} 
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure,.Package {
+	width: 350px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+.welcome:hover{
+	opacity: 0.3;
+}
+
+
+/* Zoom In #1 */
+.hover01 figure img ,.Package{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.Package{
+    background-color: rgb(214, 214, 214);
+}
+h5:hover{
+    background-color: rgb(8, 65, 8);
+   
+}
+figure:hover{
+    background-color: rgb(8, 8, 54);
+}
+.bulletts{
+    padding-left: 90%;
+}
+.space{
+	padding-bottom: 20%;
+} 
+
+
+   /* bg icons */  
+  .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+  }
+  
+  .container:hover .overlay {
+	opacity: 0.3;
+  }
+  .icon {
+	color:#fff;
+	position: absolute;
+	bottom: 90%;
+	left: 50%;
+	text-align: center;
+  }
+  
+  .fa fa-chain:hover {
+	color:#fff;
+  }
